@@ -1,0 +1,51 @@
+header{
+  text-align:center;
+  font-family:"Baloo Bhaina",sans-serif;
+}
+
+
+
+nav {
+  text-align:center;
+  margin:auto;
+  width:100%;
+  background-color:rgb(50,94,158);
+  font-family:"Harmattan";
+}
+
+nav ul{
+  list-style: none;
+  padding-left:0px;
+}
+nav ul li{
+  display:inline-block;
+}
+
+nav ul li a{
+  display:block;
+  padding:20px 20px;
+  text-decoration:none;
+  color:white;
+}
+
+nav ul li a:hover{
+  color:black;
+  background-color:rgb(42,178,197);
+}
+
+.content{
+  width:70%;
+  float:left;
+}
+
+#biography{
+  margin-left:50px;
+  
+}
+
+#paris{
+  float:right;
+  width:350;
+  border-radius: 5px;
+  margin: 50px 20px auto 20px;  
+}
