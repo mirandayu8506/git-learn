@@ -2,8 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  
+  <meta name="viewport" content="width=device-width" initial-scale="1">
+  <link rel="stylesheet" type="text/css" href="個人簡介.css">
+
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <title>個人簡介</title>
 </head>
   
@@ -11,6 +13,7 @@
   <style>
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Harmattan');
 </style>
+  
   <header>
   <h1>Profile</h1>
   </header>
@@ -18,13 +21,14 @@
   <nav>
     <ul>
       <li><a href="#biography">個人簡介</a></li>
-      <li><a href="#photos">個人照片</a></li>
+      
       <li><a href="#interests">興趣、嗜好、專長</a></li>
       <li><a href="#milestones">人生里程碑</a></li>
       <li><a href="#socialmedia">社群網站連結</a></li>
      
     </ul>
   </nav>
+  
  <div id="content"> 
   <article id="biography">
     <h2>個人簡介</h2>
@@ -33,11 +37,11 @@
       小學國中高中都在從家裡出發走路就能到得了的地方，上了大學交通也相較其他同學方便。<br>目前是廣告系三年級，實在不得不說政大從一開始就不應該不分系，現在連畢業製作都要不分系了真的很棒。</p>
   </article>
   
-  <article >
+
     
     <section id="interests">
       <h3>興趣、嗜好、專長</h3>
-       <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-0/p206x206/14102671_1429207030428186_1046474990377815504_n.jpg?oh=83fbe9249334122bb4e308c72dc0f10d&oe=5964733B",width="400", alt="my">
+       <img id="me" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-0/p206x206/14102671_1429207030428186_1046474990377815504_n.jpg?oh=83fbe9249334122bb4e308c72dc0f10d&oe=5964733B",width="230", alt="my">
       <p>平常因為在電台做節目的關係喜歡聽西洋另類的團，像是The&nbsp;Lumineers、Panic!&nbsp;At&nbsp;The&nbsp;Disco等等。<br>喜歡看好萊塢的商業片。<br>因為生活被電台填滿，唯一的是能夠稱得上嗜好的就是看科幻及懸疑小說。
       </p>
     </section>
@@ -64,29 +68,46 @@
       
     </section>
     </div>
+   
+<aside>
     <section id="socialmedia">
       <h3>更多</h3>
-      <a href="https://www.facebook.com/profile.php?id=100000167081154">臉書</a>
+      <div class="link">
+        <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+        <a href="https://www.facebook.com/profile.php?id=100000167081154">臉書</a>
+      </div>
+      <div class="link">
+        <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
       <a href="https://www.instagram.com/mirandayu63/">IG</a>
+      <div class="link">
+	    <i class="fa fa-laptop fa-lg" aria-hidden="true"></i>
+		<a href="http://www.ad.nccu.edu.tw/main.php">政大廣告系</a>
+	  </div>
+	  <div class="link">
+		<i class="fa fa-university fa-lg" aria-hidden="true"></i>
+		<a href="http://www.nccu.edu.tw/">政治大學</a>
+	  </div>
   </section>
+
     <section id="contactme">
       <h3>有話想說？</h3>
       <form>
-				<input type="text" name="name" required="required" size="75" maxlength="10" placeholder="Name">
+				<input type="text" name="name" required="required" size="30" maxlength="10" placeholder="Name"><br>
 				性別：
 				<input type="radio" name="gender" value="male" id="male" required="required">
 				<label for="male">男</label>
 				<input type="radio" name="gender" value="female" id="female" required="required">
 				<label for="female">女</label>
-				<input type="email" name="email" required="required" size="100" placeholder="E-mail">
-				<input type="text" name="subject" required="required" size="100" placeholder="Subject">
-				<textarea cols="98" rows="6" required="required" placeholder="Message"></textarea>
+				<input type="email" name="email" required="required" size="30" placeholder="E-mail">
+				<input type="text" name="subject" required="required" size="30" placeholder="Subject">
+				<textarea cols="28" rows="6" required="required" placeholder="Message"></textarea>
 				<br>
 				<input type="submit" value="Submit">
 			</form>
       
     </section>
-  </article>
-  
+   </aside>
+ <footer>
+  </footer>
 </body>
 </html>
