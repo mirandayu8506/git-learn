@@ -1,3 +1,10 @@
-.description{
-    color: red;
-}
+title{-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;}
+  .image{
+      max-width:460px;
+  }
+  .descroption{
+      max-width:705px;
+  }
